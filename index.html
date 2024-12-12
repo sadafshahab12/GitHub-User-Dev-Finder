@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GitHub Developer Finder</title>
+
+  <meta name="description"
+    content="Find GitHub developers quickly and easily using our GitHub User/Dev Finder. Simply enter a username to access detailed profiles, including repositories, followers, and more, powered by the GitHub API." />
+  <!-- FONT AWESOME CDN  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="/img/user-profile.png" alt="logo" />
+        <h1>Code & Connect</h1>
+      </div>
+      <ul class="navlinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-btn">
+        <button>Login</button>
+      </div>
+      <div class="icon">
+        <i class="fa fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="container">
+      <h1>Your One-Stop <span>Developer</span> Discovery Platform</h1>
+      <p>
+        Discover top <span>GitHub developers</span> for your
+        <span>projects</span> and <span>ideas </span>, effortlessly.
+      </p>
+      <form class="user-form">
+        <label for="user-input">Find Developers by Username</label>
+        <div class="input-btn">
+          <input type="text" placeholder="User Name" id="user-input" />
+          <button class="find-btn">Find User</button>
+        </div>
+      </form>
+    </div>
+    <div class="fetch-data"></div>
+  </section>
+  <footer>
+    <h1>developed by <span>Sadaf Shahab</span> | 2024</h1>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
