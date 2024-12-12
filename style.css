@@ -13,19 +13,11 @@ html {
   font-size: 62.5%;
 }
 
-html,
-body {
-  height: 100%;
-}
-
-/* Set body to a flex container to stretch content and push footer down */
 body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* Ensures the footer sticks to the bottom */
   min-height: 100vh;
-  /* Ensure the body takes at least the full height of the viewport */
 }
 
 .navlinks {
@@ -88,7 +80,9 @@ body {
 .icon {
   display: none;
 }
-
+section {
+  flex-grow: 1;
+}
 .container {
   padding: 2rem 4rem;
   flex-grow: 1;
@@ -191,7 +185,6 @@ body {
 }
 
 .user-name {
- 
   font-size: 1.5rem;
   font-weight: 700;
 }
