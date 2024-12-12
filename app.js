@@ -27,7 +27,7 @@ function getGithubUser() {
           }" alt="avatar-url" />
         <div class="personal-info">
           <h1 class="name">${user.name || "Anonymous"}</h1>
-          <p class="user-name">${user.login}</p>
+          <p class="user-name">User Name: ${user.login}</p>
           <p class="user-address">Location : ${user.location || "Not Present"
           }</p>
         </div>
